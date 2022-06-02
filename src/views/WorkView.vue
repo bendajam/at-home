@@ -14,7 +14,7 @@
 
 
 <template>
-  <div>
+  <div class="content">
     <h1>Daily Occupation</h1>
     <p>
       I've worked in the software development field for over a decade with a focus

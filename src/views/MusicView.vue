@@ -14,7 +14,7 @@
 
 
 <template>
-  <div>
+  <div class="content">
     <h1>Music</h1>
     <p>
     </p>

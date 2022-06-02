@@ -14,7 +14,7 @@
 
 
 <template>
-  <div>
+  <div class="content">
     <h1>Book Blog</h1>
     <p>
     </p>

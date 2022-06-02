@@ -35,49 +35,43 @@
 <style scoped>
   img {
     transform: scale(1.5);
-    z-index: 1;
-  }
-  div {
-    z-index: 0;
   }
   .room {
-    width: 1000px;
-    height: 1000px;
+    width:500px;
+    height: 844px;
+    margin: 0 auto;
   }
   .shelf-area {
+    max-width:1px;
     position: relative;
     left:51.5%;
-    top:40%;
+    top:100px;
   }
   .desk-area {
+    max-width:1px;
     position: relative;
-    left:55%;
-    top:50%;
-  }
-  .desk {
-    position: relative;
-    left: 4%;
-    top: -40%;
+    left:65%;
+    top:230px;
   }
   .amp {
     position: relative;
-    left: 50%;
-    top: 62%;
+    left: 48%;
+    top: 350px;
   }
   .monitor {
     position: absolute;
     left: 16%;
-    top: -40%;
+    top: -50%;
   }
   .books {
     position: absolute;
-    left: 3%;
-    top: 42%;
+    left: 25px;
+    top: 37px;
   }
   .lanyard {
     position: absolute;
-    left: 8.6%;
-    top: 96%;
+    left: 85px;
+    top: 84px;
   }
   .keyboard {
     position: absolute;
@@ -85,9 +79,9 @@
     top: 14%;
   }
   .chair {
-    position: absolute;
-    left:56%;
-    top:73%;
+    position: relative;
+    left:60%;
+    top:150px;
   }
 
 </style>
