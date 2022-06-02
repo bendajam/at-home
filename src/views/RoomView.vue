@@ -7,21 +7,21 @@
   <div class="room">
 
       <InteractiveImage class="amp"
-        image="@/assets/images/amp.png"
-        imageOutline="@/assets/images/amp-hover.png"
+        image="/src/assets/images/amp.png"
+        imageOutline="/src/assets/images/amp-hover.png"
         routeLocation="music"
         />
 
     <div class="shelf-area">
       <img src="@/assets/images/shelf.png">
       <InteractiveImage class="lanyard"
-        image="@/assets/images/lanyard.png"
-        imageOutline="@/assets/images/lanyard-hover.png"
+        image="/src/assets/images/lanyard.png"
+        imageOutline="/src/assets/images/lanyard-hover.png"
         routeLocation="work"
         />
       <InteractiveImage class="books"
-        image="@/assets/images/books.png"
-        imageOutline="@/assets/images/books-hover.png"
+        image="/src/assets/images/books.png"
+        imageOutline="/src/assets/images/books-hover.png"
         routeLocation="book_blog"
         />
     </div>

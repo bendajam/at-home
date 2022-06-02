@@ -16,12 +16,13 @@ export default defineComponent({
   },
   methods: {
     getImage() {
-      require(this.imageOutline);
-      require(this.image);
+      const imageOutlineURL = new URL(this.imageOutline, import.meta.url);
+      const imageURL = new URL(this.image, import.meta.url);
+
       if(this.isHover){
-        return this.imageOutline;
+        return imageOutlineURL;
       } else {
-        return this.image;
+        return imageURL;
       }
     },
     transition() {
