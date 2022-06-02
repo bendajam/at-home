@@ -17,9 +17,9 @@ export default defineComponent({
   methods: {
     getImage() {
       if(this.isHover){
-        return this.imageOutline;
+        return require(this.imageOutline);
       } else {
-        return this.image;
+        return require(this.image);
       }
     },
     transition() {
