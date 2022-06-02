@@ -16,10 +16,12 @@ export default defineComponent({
   },
   methods: {
     getImage() {
+      require(this.imageOutline);
+      require(this.image);
       if(this.isHover){
-        return require(this.imageOutline);
+        return this.imageOutline;
       } else {
-        return require(this.image);
+        return this.image;
       }
     },
     transition() {

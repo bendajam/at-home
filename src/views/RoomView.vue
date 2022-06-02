@@ -7,28 +7,28 @@
   <div class="room">
 
       <InteractiveImage class="amp"
-        image="/src/assets/images/amp.png"
-        imageOutline="/src/assets/images/amp-hover.png"
+        image="@/assets/images/amp.png"
+        imageOutline="@/assets/images/amp-hover.png"
         routeLocation="music"
         />
 
     <div class="shelf-area">
-      <img src="/src/assets/images/shelf.png">
+      <img src="@/assets/images/shelf.png">
       <InteractiveImage class="lanyard"
-        image="/src/assets/images/lanyard.png"
-        imageOutline="/src/assets/images/lanyard-hover.png"
+        image="@/assets/images/lanyard.png"
+        imageOutline="@/assets/images/lanyard-hover.png"
         routeLocation="work"
         />
       <InteractiveImage class="books"
-        image="/src/assets/images/books.png"
-        imageOutline="/src/assets/images/books-hover.png"
+        image="@/assets/images/books.png"
+        imageOutline="@/assets/images/books-hover.png"
         routeLocation="book_blog"
         />
     </div>
     <div class="desk-area">
-      <img class="desk" src="/src/assets/images/desk.png">
+      <img class="desk" src="@/assets/images/desk.png">
     </div>
-    <img class="chair" src="/src/assets/images/chair.png">
+    <img class="chair" src="@/assets/images/chair.png">
   </div>
 </template>
 
