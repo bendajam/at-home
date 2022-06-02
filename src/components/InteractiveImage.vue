@@ -16,8 +16,8 @@ export default defineComponent({
   },
   methods: {
     getImage() {
-      const imageOutlineURL = new URL(this.imageOutline, import.meta.url);
-      const imageURL = new URL(this.image, import.meta.url);
+      const imageOutlineURL = new URL(this.imageOutline, import.meta.url).href;
+      const imageURL = new URL(this.image, import.meta.url).href;
 
       if(this.isHover){
         return imageOutlineURL;
